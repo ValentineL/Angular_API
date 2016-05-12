@@ -47,7 +47,6 @@ describe('ApiCall', function() {
     });
 });
 
-
 /*describe("ApiCall", function () {
 
     beforeEach(module('angularTable'));
