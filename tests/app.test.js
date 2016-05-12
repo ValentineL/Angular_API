@@ -46,7 +46,7 @@ describe('ApiCall', function() {
         expect(scope.doneScrapingOriginalUrl).toEqual(true);
     });
 });
-
+  
 /*describe("ApiCall", function () {
 
     beforeEach(module('angularTable'));
