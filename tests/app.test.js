@@ -46,32 +46,4 @@ describe('ApiCall', function() {
         expect(scope.doneScrapingOriginalUrl).toEqual(true);
     });
 });
-  
-/*describe("ApiCall", function () {
-
-    beforeEach(module('angularTable'));
-
-    describe("listdata", function () {
-
-        var scope, httpBackend, http, controller;
-        beforeEach(inject(function ($rootScope, $controller, $httpBackend, $http) {
-            scope = $rootScope.$new();
-            httpBackend = $httpBackend;
-            http = $http;
-            controller = $controller;
-            httpBackend.when("GET", "https://api.github.com/users/valentinel/repos").respond([{"id": 41977278, "name": "android-material-drawer-template", "updated_at": "2015-09-05T22:11:02Z"},
-                                                                                              {"id": 58416374, "name": "Angular-API", "updated_at": "2016-05-10T00:30:45Z"}]);
-        }));
-
-        it('should GET repositories', function () {
-            httpBackend.expectGET('https://api.github.com/users/valentinel/repos');
-            controller('listdata', {
-                $scope: scope,
-                $http: http
-            });
-            httpBackend.flush();
-        });
-    });
-});*/
-
-
+ 
