@@ -1,3 +1,4 @@
+"use strict";
 describe('ApiCall', function() {
     var scope, httpBackend, createController;
 

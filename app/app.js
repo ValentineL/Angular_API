@@ -1,3 +1,5 @@
+"use strict";
+
 var app = angular.module('angularTable', ['angularUtils.directives.dirPagination']);
 
 app.controller('listdata',["$scope", "$http", function reposController($scope, $http) {
